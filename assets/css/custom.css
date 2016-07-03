@@ -15,3 +15,29 @@ nav{
 }
 
 
+/* Main */
+
+/* Titles, paragraphs &. */
+h2{
+	font-size: 2rem;
+	font-weight: 700;
+	color: #010101;
+}
+
+h4{
+	font-size: 1.25rem;
+	line-height: 1.5rem;
+	font-weight: 400;
+	color: #313841;
+	max-width: 24.6875rem;
+}
+
+.main-text{
+	font-weight: 400;
+	line-height: 1.25rem;
+	color: #555555;
+	padding: 0.875rem 0;
+
+}
+
+
