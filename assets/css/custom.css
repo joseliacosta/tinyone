@@ -4,16 +4,15 @@
 html{
 	font-family: 'PT Sans', sans-serif;
 	font-size: 1rem;
+	background-color: #fcdb00;
 }
-
 
 /*Header*/
 
 nav{
-	background-color: #fcdb00;
+  background-color: #fcdb00;
 	box-shadow: none;
 }
-
 
 /* Main */
 
@@ -32,6 +31,7 @@ h4{
 	max-width: 24.6875rem;
 }
 
+/*Paragraph*/
 .main-text{
 	font-weight: 400;
 	line-height: 1.25rem;
@@ -69,6 +69,8 @@ footer{
 
 
 /* Form & Inputs */
+
+
 
 
 
