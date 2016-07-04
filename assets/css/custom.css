@@ -8,11 +8,42 @@ html{
 }
 
 /*Header*/
-
+header{
+  margin-top: 3.75rem;
+}
+h1#logo{
+  font-size: 1.875rem;
+    line-height: 125%;
+    margin: 0;
+}
+#logo{
+  background: url(../img/fingerprint.png)no-repeat center left;
+  display: inline;
+  padding: 0.5rem 3.3125rem;
+ 
+}
+#logo a{
+  font-weight: 700;
+  font-size: 1.875rem;
+  color: #010101; 
+}
 nav{
   background-color: #fcdb00;
-	box-shadow: none;
+  box-shadow: none;
 }
+
+
+nav ul a{
+	font-weight: 700;
+	font-size: 1.375rem;
+	color: #010101;
+
+}
+
+.nav-wrapper{
+  vertical-align: middle;
+}
+  
 
 /* Main */
 
