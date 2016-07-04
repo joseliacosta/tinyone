@@ -189,5 +189,22 @@ textarea.materialize-textarea:focus:not([readonly]) + label {
 /* Footer */
 footer{
 	background: #010101;
-	color: #ffffff;
+    color: #ffffff;
+    font-weight: 400;
+    height: 17.3125rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+footer a{
+  color: #ffffff;
+  text-decoration: #fff!important;
+}
+
+@media only screen and (max-width: 992px) {
+  footer{
+    height: auto;
+    padding: 1rem;
+  }
+} 
