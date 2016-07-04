@@ -9,7 +9,7 @@ $(document).ready(function() {
         return false;
       }
       else {
-        $.ajax({
+        /*$.ajax({
           method: 'POST',
           url: '//formspree.io/joselialcosta@gmail.com',
           data: $('#contact-form').serialize(),
@@ -17,7 +17,8 @@ $(document).ready(function() {
         });
         e.preventDefault();
         $(this).get(0).reset();
-        $('.submit-success').fadeToggle(400);
+        $('.submit-success').fadeToggle(400);*/
+        console.log("Work!")
       }
     });
   
