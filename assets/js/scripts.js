@@ -1,12 +1,10 @@
-
-
 $(document).ready(function() {
-  $('#contactForm').submit(function(e) {
-      var name = $('#name')
-      var email = $('#email')
-      var phone = $('#phone')
+  $('#contact-form').submit(function(e) {
+      var name = $('#inputName')
+      var email = $('#inputEmail')
+      var message = $('#inputMessage')
     
-      if(name.val() == "" || email.val() == "" || phone.val() == "") {
+      if(name.val() == "" || email.val() == "" || message.val() == "") {
         $('.submit-fail').fadeToggle(400);
         return false;
       }
@@ -14,7 +12,7 @@ $(document).ready(function() {
         $.ajax({
           method: 'POST',
           url: '//formspree.io/joselialcosta@gmail.com',
-          data: $('#contactForm').serialize(),
+          data: $('#contact-form').serialize(),
           datatype: 'json'
         });
         e.preventDefault();
@@ -27,3 +25,4 @@ $(document).ready(function() {
     $(this).hide();
   })
 });
+  
