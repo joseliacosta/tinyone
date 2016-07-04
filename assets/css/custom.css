@@ -1,10 +1,13 @@
 @import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700);
 
 /*Global Settings*/
-html{
+html,
+body{
 	font-family: 'PT Sans', sans-serif;
 	font-size: 1rem;
 	background-color: #fcdb00;
+    height:100%; /* aqui definimos que o html e o body terão altura   de 100% */
+
 }
 
 /*Header*/
@@ -47,6 +50,20 @@ nav ul a{
 
 /* Main */
 
+
+#main-content{
+  
+  width:100%;
+  height:auto; min-height:100%;
+  
+  
+}
+
+
+main .container{
+  display: flex;
+  align-items: center;
+}
 /* Titles, paragraphs &. */
 h2{
 	font-size: 2rem;
